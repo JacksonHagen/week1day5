@@ -1,0 +1,137 @@
+
+.text-shadow{
+    text-shadow: 2px 2px 4px black;
+}
+.object-cover{
+    object-fit: cover;
+}
+.my-3em{
+    margin-top: 3em;
+    margin-bottom: 1rem;
+}
+.textarea-height{
+    height: 300px;
+    max-height: 300px;
+    min-height: 300px;
+}
+.height-333{
+    height: 333px;
+}
+.vh-40{
+    height: 40vh;
+}
+.vh-40mq{
+    height: 40vh;
+}
+.rem20-mq{
+    width:20rem
+}
+
+.height-auto{
+    height:auto;
+}
+.width-automq{
+    width:auto;
+}
+#cheesy-img{
+    width: auto;
+    height: 800px;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.h800mq{
+    height:800px;
+}
+.bg-cheese{
+    background-color:#dbb36a
+}
+.indent-3{
+    text-indent: 3em;
+}
+.width-auto{
+    width:auto;
+}
+.bg-pink{
+    background-color: rgb(239, 198, 204);
+}
+.bg-lighter-pink{
+    background-color: rgb(243, 212, 217);
+}
+.spill{
+    position: relative;
+    right: 2em;
+    bottom: -150px;
+}
+.border-radius-20{
+    border-radius: 20px;
+}
+.trans{
+    transition-duration: 250ms;
+}
+.trans:hover{
+    transition-duration: 500ms, 500ms;
+    transform: scale(1.05);
+}
+.translucent-white{
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(3px);
+}
+.font-s-mq{
+    font-size: 30px;
+    font-weight: 300;
+}
+.px-3mq{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.h400mq{
+    height:400px;
+}
+.h250mq{
+    height: 250px;
+}
+.hide-mq{
+    visibility: visible;
+}
+.h400{
+    height:400px
+}
+@media only screen and (max-width: 767px) {
+    .rem20-mq{
+        width: 80vw;
+    }
+    .spill{
+        position:unset;
+        right:unset;
+        bottom:unset;
+    }
+    .vh-40mq{
+        height:auto;
+    }
+    .px-3mq{
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    #cheesy-img{
+        width: auto;
+        height: 80vh;
+    }
+    .font-s-mq{
+        font-size: 18px;
+    }
+    .h800mq{
+        height:1000px
+    }
+    .h400mq{
+        height:auto;
+    }
+    .width-automq{
+        width:85vw;
+    }
+    .h250mq{
+        height:auto;
+    }
+    .hide-mq{
+        visibility: hidden;
+    }
+}
