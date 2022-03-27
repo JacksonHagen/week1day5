@@ -65,6 +65,9 @@
 .border-radius-20{
     border-radius: 20px;
 }
+.br-10{
+    border-radius: 10%;
+}
 .trans{
     transition-duration: 250ms;
 }
@@ -96,6 +99,7 @@
 .h400{
     height:400px
 }
+
 @media only screen and (max-width: 767px) {
     .rem20-mq{
         width: 80vw;
